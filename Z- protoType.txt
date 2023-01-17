@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siveri's Shop</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://www.dafontfree.net/embed/dW5pLXNhbnMtaGVhdnktaXRhbGljLWNhcHMmZGF0YS8xNi91Lzc5MzczL1VuaSBTYW5zIEhlYXZ5IEl0YWxpYy5vdGY"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <style>
+      * {
+        font-family: "Lexend Deca", sans-serif; /* apply the Lexend Deca font to all elements */
+      }
+
+      body {
+        background-color: #e5e5e5; /* light gray background */
+      }
+
+      header {
+        background-color: #90ee90; /* light green background */
+        color: black;
+        display: flex;
+        justify-content: center; /* center the title */
+        align-items: center; /* center the title */
+        height: 10vh;
+      }
+
+      header h1 {
+        margin: 0;
+        size: 1000px;
+        text-align: center; /* center the title */
+        font-family: "uni-sans-heavy-italic-caps", sans-serif;
+        width: 400px;
+        height: 1px;
+        letter-spacing: 1mm;
+      }
+
+      header .menu-btn {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: none; /* hide the button by default */
+      }
+
+      header .menu-btn:hover .menu-btn__burger {
+        background-color: black;
+      }
+
+      #landing {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        background-color: #90ee90; /* light green background */
+      }
+
+      #landing img {
+        width: 200px;
+        text-align: left;
+      }
+
+      #landing h2 {
+        margin-top: 1rem;
+      }
+
+      #landing p {
+        margin-top: 1rem;
+      }
+
+      .cta-btn {
+        background-color: #228b22; /* dark green background */
+        color: white;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        margin-top: 1rem;
+      }
+
+      .img {
+        width: 100;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 size="200px">SHOP</h1>
+      <!--   <nav>
+        <button class="menu-btn">
+          <div class="menu-btn__burger"></div>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#catalog">Catalog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav> -->
+    </header>
+    <main>
+      <section id="landing">
+        <img src="/images/logo.jpeg" alt="Siveri's Shop" />
+        <h2>Welcome to Siveri's Shop</h2>
+        <p>We offer a wide selection of vintage products.</p>
+        <a href="#catalog" class="cta-btn">View Catalog</a>
+      </section>
+      <section id="catalog">
+        <h2>Catalog</h2>
+        <ul class="products">
+          <li>
+            <h3>Product 1</h3>
+            <img1 src="product1.jpg" alt="Product 1" />
+            <p>Product 1 description...</p>
+            <button>Add to Cart</button>
+          </li>
+          <!-- Repeat the same structure for the remaining products -->
+        </ul>
+      </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Information about Siveri's Shop...</p>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Contact information for Siveri's Shop...</p>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright ©2021 Siveri's Shop</p>
+    </footer>
+  </body>
+</html>
